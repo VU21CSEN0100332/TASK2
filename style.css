@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+body{
+    background: rgb(32, 10, 10) url("https://unsplash.it/1500/1000?image=184&blur=5");
+    background-size: cover;
+    color: #fff;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 59px;
+    padding: 0 64px;
+    margin: 0;
+}
+
+.stopwatch{
+    margin-top: 3rem;
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 23px;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.gold{
+    font-weight: 900;
+    color: #f2c94c;
+    text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
+}
+
+.time{
+    font-family: sans-serif, monospace;
+    font-weight: 300;
+    font-size: 48px;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px solid;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    font-family: sans-serif;
+}
+
+.controls{
+    display: flex;
+    justify-content: space-between;
+    width: 178px;
+}
+
+button{
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:active{
+    transform: scale(0.90);
+}
+
+button:hover{
+    color: #f2c94c;
+}
+
+.play{
+    display: block;
+}
+
+.pause{
+    display: none;
+}
+
+.lap-list {
+    list-style: none;
+    margin: 1em auto;
+    padding: 0;
+}
+
+.counter{
+    font-size: 22px;
+    padding-right: 20px;
+    font-family: fantasy;
+    color: #f2c94c;
+}
+
+.laptime{
+    font-size: 20px;
+    font-family: fantasy;
+    padding-left: 10px;
+    color: #68f068;
+}
+
+li{
+    padding: 2px;
+}
